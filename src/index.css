@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  user-select: none;
+  font-size: 50px;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.wordContainer {
+  /* display: flex;
+  gap: 100px; */
+  border: 1px solid black;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50dvw;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+  animation: opacity 1s;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 50%;
+}
